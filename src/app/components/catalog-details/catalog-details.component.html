@@ -1,0 +1,42 @@
+<div class="details">
+  <div class="mt-5 mt-lg-0">
+    <div class="card border shadow-none">
+      <div class="card-header bg-transparent border-bottom py-3 px-4">
+        <h5 class="font-size-16 mb-0">Product Details</h5>
+      </div>
+      <div class="card-body p-4 pt-2">
+        <div class="table-responsive">
+          <table class="table mb-0">
+            <tbody>
+            <img src="{{product.getImageURL()}}" class="rounded float-left" alt="...">
+            <tr>
+              <td class="fw-bold">Name :</td>
+              <td class="text-end">{{product.productTitle}}</td>
+            </tr>
+            <tr>
+              <td class="fw-bold">Price : </td>
+              <td class="text-end">{{product.productPrice}} DH</td>
+            </tr>
+            <tr>
+              <td class="fw-bold">Quantity :</td>
+              <td class="text-end">{{product.productQuantity}}</td>
+            </tr>
+            <tr>
+              <td class="fw-bold">Category : </td>
+              <td class="text-end">{{product.category}}</td>
+            </tr>
+            <tr>
+              <td class="fw-bold">Posted : </td>
+              <td class="text-end">{{product.Date.toDateString()}}</td>
+            </tr>
+            <tr>
+              <td class="fw-bold">Description : </td>
+              <td class="text-end">{{product.productDescription}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

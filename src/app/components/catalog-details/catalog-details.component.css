@@ -1,0 +1,12 @@
+img{
+  width: 120px;
+  height: 120px;
+}
+.details{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 450px;
+  height: 23px;
+}
